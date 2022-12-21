@@ -1,0 +1,16 @@
+server:
+  port: 9092
+
+value: test
+
+spring:
+  #  profiles:
+  #    active: local
+  application:
+    name: profile-service
+  banner:
+    location: banner.txt
+
+
+application:
+  title: Spring Boot Profile
